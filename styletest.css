@@ -2,14 +2,35 @@ body {
   background-color: #FFF;
 }
 
-h1  {
+h2  {
   color: #000;
 }
-
-div#test01 {
+#test01 {
   color: #00a;
+}
+#test02 {
+  color: #992;
 }
 
 .important {
   color: #a00;
+}
+
+#members,#members th,#members td{
+  border-collapse: collapse;
+  border: 1px solid;
+  text-align: center;
+}
+.ol{
+  background-color: #aff;
+}
+.el{
+  background-color: #0ff;
+}
+.last3{
+  font-weight: bold;
+}
+.ol:hover,.el:hover{
+  background-color: yellow;
+  .name{font-weight: bold;}
 }
